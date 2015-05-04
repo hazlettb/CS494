@@ -1,0 +1,121 @@
+
+* {
+  font-family:verdana,sans-serif;
+  font-size  :14pt;
+}
+
+.wrapper {
+  width     :800px;  
+  margin    :50px auto;
+  background:#f8f8f8;
+  border    :2px solid #888;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  
+}
+
+
+  
+.wrapper h3 {
+  color      :#40d;
+  font-family:helvetica;
+  font-size	 :20pt; 
+  text-align :center;
+}
+html {
+  background: url('row_smaller.jpg') repeat top center fixed;   
+}
+
+.logo {
+  background: url('2oars_logo.jpg') repeat-x center; 
+  width: 800px;
+  height: 100px;  
+}
+
+.welcome, .sel, .display{
+  margin-left: 20px;
+}
+.menu {
+  text-align: center;
+  
+}
+ 
+h2{
+  margin-left: 20px;
+} 
+ a { 
+  margin-left: 20px;
+  margin-bottom: 20px;
+ }
+
+.tbl {
+  margin-left: 20px; 
+  text-align :center;
+  width     :650px;
+  border    :2px solid #888;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;    
+}
+.fieldname {
+  margin-left: 20px; 	
+  float:left;
+  width:120px;
+}
+.errorfield {
+  margin-left: 20px; 	
+  float:left;
+  color:#CC0000;
+}
+ 
+.bttn {
+  margin-left: 20px;
+ }
+
+
+.info {
+  background :lightgreen;
+  color      :blue;
+	border     :1px solid green;
+	padding    :5px 10px;
+  margin-left:40px;
+}
+
+
+a:hover, .bttn:hover {
+  color:green;
+}
+
+.LV_validation_message{    
+    margin:0 0 0 5px;
+}
+
+.LV_valid {
+    color:#00CC00;
+}
+	
+.LV_invalid {
+    color:#CC0000;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #CC0000;
+}
+
+.map {
+  margin-bottom: 20px;
+  margin-left: 20px;
+ }
